@@ -219,6 +219,11 @@ body {
   height: 90px;
   margin: 0 0 0 30px;
 }
+@media only screen and (max-width: 600px) {
+  #navbar{
+    display: none;
+  }
+}
 /* Page content */
 .content {
   padding: 16px;
@@ -408,6 +413,9 @@ img {
     justify-content: center;
   }
 }
+#space{
+  height: 20px;
+}
 .cards {
   margin: auto; 
   height: 50vh;
@@ -426,7 +434,7 @@ img {
   transition-timing-function: ease;
 }
 .card:hover {
-  background-color: blue;
+  background-color: #44961C;
 }
 
 .column {
