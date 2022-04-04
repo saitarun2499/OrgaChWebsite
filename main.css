@@ -19,6 +19,8 @@
    */
 html {
   scroll-behavior: smooth;
+  
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -26,6 +28,9 @@ html {
 body {
   font-family: Verdana, sans-serif;
   margin: 0;
+  overflow-x: hidden;
+  
+  position: relative
 }
 .icon-bar {
   z-index: 1;
@@ -495,6 +500,9 @@ marquee {
     background-color: white;
     align-items: center;
   }
+  .spaceff{
+    display: none;
+  }
 }
 
 .promo p {
@@ -521,7 +529,9 @@ marquee {
   max-height: 350px;
   box-shadow: 0 40px 60px -6px black;
 }
-
+.gap{
+  margin-top: 300px;
+}
 .birds-card-title {
   display: block;
   text-align: center;
@@ -552,6 +562,14 @@ marquee {
   overflow-y: scroll;
   transition: 0.8s ease;
 }
+.footer{
+  height: 120vh;
+}
+
+.foot{
+  background-color: #28282B;
+  height: 40vh;
+}
 
 .birds-card:hover .birds-card-desc {
   opacity: 1;
@@ -563,3 +581,35 @@ h1 {
   margin: 40px 0 20px 0;
   text-align: center;
 }
+
+
+.footer img{
+  width: 50vw;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  h1{
+    display: none;
+  }
+.spaceff{
+  display: none;
+}
+.footer img{
+  width: 80vw;
+  align-items: center;
+}
+.footer{
+  height: 60vh;
+}
+.vid center video{
+  width: 100vw;
+}
+.fssai img{
+
+  width: 100vw;
+}
+.gap{
+  margin-top: 1800px;
+}
+}
+

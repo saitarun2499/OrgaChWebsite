@@ -1,0 +1,248 @@
+html {
+    scroll-behavior: smooth;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+  }
+.icon-bar {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 0vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 26px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .home {
+    background: #e56318;
+    color: white;
+  }
+  .about {
+    background: #44961C;
+    color: white;
+  }
+  .breed {
+    background: #e56318;
+    color: white;
+  }
+  .gallery {
+    background: #44961C;
+    color: white;
+  }
+  .contact {
+    background: #e56318;
+    color: white;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .home .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .home:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*about  ---*/
+  .about {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .about .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .about:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*breed-----*/
+  .breed {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .breed .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .breed:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*gallery----*/
+  .gallery {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .gallery .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    right: 105%;
+  }
+  
+  .gallery:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*contact*/
+  .contact {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .contact .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .contact:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  
+.mainimg img{
+  height: 50vh;
+  width: 98.7vw;
+}
+.details{
+  height: 80vh;
+  width: 98.7vw;
+  background-color: #f07400;
+  align-items: center;
+}
+.inner{
+  background-color: aliceblue;
+  border-radius:10px;
+  height: 65vh;
+  width: 50vw;
+}
+.textd{
+  text-align: left;
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: inherit;
+}
+input{
+  width:50%;
+  border:2px solid #aaa;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+input:focus{
+  border-color:dodgerBlue;
+  box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 600px) {
+  .inner{
+    height: 65vh;
+  width: 90vw;
+  }
+}
