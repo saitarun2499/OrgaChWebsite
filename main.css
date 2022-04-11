@@ -32,6 +32,11 @@ body {
   
   position: relative
 }
+.floatimage{
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+}
 .icon-bar {
   z-index: 1;
   position: fixed;
@@ -611,5 +616,35 @@ h1 {
 .gap{
   margin-top: 1800px;
 }
+.footer{
+  display: none;
+}
+.floatimage{
+  width: 150px;
+}
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+}
+hr{
+  width: 50vw;
+  border: 2px solid black;
+}
