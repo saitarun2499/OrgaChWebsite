@@ -35,7 +35,7 @@ body {
 .floatimage{
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 60%;
 }
 .icon-bar {
   z-index: 1;
@@ -319,6 +319,25 @@ img {
     border-color: transparent;
   }
 }
+.text4 {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+  padding: 8px 12px;
+  font-weight: bolder;
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  width: 50ch;
+  animation: typing2 2s steps(50), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  display: inline;
+  background-color: black;
+}
 .text3 {
   color: rgb(255, 0, 0);
   font-size: 30px;
@@ -406,7 +425,7 @@ img {
   justify-content: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .space {
     height: 25px;
   }
@@ -622,6 +641,11 @@ h1 {
 .floatimage{
   width: 150px;
 }
+.text4 {
+  font-size: 0.8em;
+  border-right: none;
+  left: 20%;
+}
 }
 
 ul {
@@ -647,4 +671,18 @@ li a {
 hr{
   width: 50vw;
   border: 2px solid black;
+}
+
+@media only screen and (max-width: 800px) {
+  .video{
+    margin-bottom: 370px;
+  }
+}
+@media only screen and (width: 375px) {
+  .video{
+    margin-bottom: 50px;
+    }
+  .spaceff{
+      display:none;
+  }
 }

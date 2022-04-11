@@ -1,11 +1,173 @@
-body{
-    background-color: #1B1212;
-}
-.main img{
-    float: right;
-    margin-right: 15px;
-}
-.main p{
+.icon-bar {
+    z-index: 1;
+    position: fixed;
+    top: 50%;
+    right: 0vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 26px;
+    transition: all 0.3s ease;
     color: white;
-    text-align: left;
-}
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .home {
+    background: #e56318;
+    color: white;
+  }
+  .about {
+    background: #44961C;
+    color: white;
+  }
+  .breed {
+    background: #e56318;
+    color: white;
+  }
+  .gallery {
+    background: #44961C;
+    color: white;
+  }
+  .contact {
+    background: #e56318;
+    color: white;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .home .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .home:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*about  ---*/
+  .about {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .about .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .about:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*breed-----*/
+  .breed {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .breed .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .breed:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*gallery----*/
+  .gallery {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .gallery .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    right: 105%;
+  }
+  
+  .gallery:hover .tooltiptext {
+    visibility: visible;
+  }
+  /*contact*/
+  .contact {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .contact .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: 105%;
+  }
+  
+  .contact:hover .tooltiptext {
+    visibility: visible;
+  }
+  
